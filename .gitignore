@@ -1,0 +1,9 @@
+db.db
+.env
+.venv
+.vscode
+Data/Clean
+Data/Processed
+Data/Raw
+
+__pycache__
