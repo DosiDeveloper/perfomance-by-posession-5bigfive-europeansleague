@@ -1,0 +1,6 @@
+dash
+gdown
+duckdb
+pandas
+dash-mantine-components
+python-dotenv
