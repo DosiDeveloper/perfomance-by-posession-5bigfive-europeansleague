@@ -15,15 +15,24 @@ Determinar la relación entre el porcentaje de tiempo de posesión del balón y 
 
 -Comparar los resultados de dicha correlación entre la Premier League, La Liga, Serie A, Bundesliga y Ligue 1 para identificar en cuál de estas competiciones la posesión se tradujo en una mayor rentabilidad de puntos.
 
-## Stack tecnologico
+# Stack tecnologico
 - Python / pandas
 - Duckdb
-- sqlite3
-- Dash
+- Sqlite3
+- Streamlit
 - PowerBI
 
+# Fuente de datos
+El dataset original se encuentra alojado en [Kaggle](https://www.kaggle.com/datasets/aleespinosa/soccer-match-event-dataset/data) en formato .csv. Como parte de las buenas prácticas del proyecto y para reducir significativamente la huella de almacenamiento, los datos han sido procesados y exportados a formato .parquet.
+
+# Alojamiento de datos
+Los archivos resultantes están centralizados y pueden ser accedidos a través del siguiente directorio de [Google Drive]().
 
 ## Uso local del proyecto
+Preinicializacion del proyecto
+```bash
+py ./preinitialize.py
+```
 ### Dashboard
 1. Clonar el repositorio
 ```bash
@@ -41,4 +50,3 @@ py ./app.py
 ### PowerBI
 
 > En desarrollo
-

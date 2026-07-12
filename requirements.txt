@@ -1,6 +1,8 @@
-dash
+streamlit
 gdown
 duckdb
 pandas
-dash-mantine-components
 python-dotenv
+pyarrow
+pytest
+plotly
